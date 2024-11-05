@@ -38,8 +38,8 @@ body {
 
 // 使用mixin mobile-sm:480px mobile:576px mobile-lg:768px pad:992px
 @include pad {
-    .main-banner {
-        background-image: url(../images/popular_banner_mb.jpg);
+    .herosection-banner {
+        background-image: url(../images/holiday_main_banner_mb.png);
 
         .bannerTitle {
             text-align: center;
@@ -66,8 +66,8 @@ body {
 }
 
 @include mobile {
-    .main-banner {
-        background-image: url(../images/popular_banner_mb.jpg);
+    .herosection-banner {
+        background-image: url(../images/holiday_main_banner_mb.png);
 
         .bannerTitle {
             padding-top: calc(90px + 60px);
